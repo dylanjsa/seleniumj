@@ -1,0 +1,16 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'wrapper'
+
+sourceCompatibility = '1.8'
+
+group 'com.dylanjsa'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.seleniumhq.selenium:selenium-java:3.0.1'
+	testCompile 'junit:junit:4.11'
+}
